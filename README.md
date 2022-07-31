@@ -96,5 +96,95 @@ will get validation failed error
 }
 ```
 
-  
+
+## There are many annotation to validation our model, listed below - 
+
+#### AssertFalse - 
+
+The annotated element must be false. Supported types are boolean and Boolean.
+
+#### AssertTrue - 
+
+The annotated element must be true. Supported types are boolean and Boolean.
+
+#### DecimalMax - 
+
+The annotated element must be a number whose value must be lower or equal to the specified maximum.
+
+#### DecimalMin - 
+
+The annotated element must be a number whose value must be higher or equal to the specified maximum.
+
+#### Digits - 
+
+The annotated element must be a number within accepted range. and null elements are considered valid.
+
+#### Email - 
+
+The string has to be a well-formed email address. Exact semantics of what makes up a valid email address are left to Jakarta Bean Validation providers. Accepts CharSequence. null elements are considered valid.
+
+#### Future - 
+
+The annotated element must be an instant, date or time in the future.
+
+#### FutureOrPresent - 
+
+The annotated element must be an instant, date or time in the present or in the future.
+
+#### Max - 
+
+The annotated element must be a number whose value must be lower or equal to the specified maximum.
+
+#### Min - 
+
+The annotated element must be a number whose value must be higher or equal to the specified maximum.
+
+#### Negative  - 
+
+The annotated element must be a strictly negative number (i.e. 0 is considered as an invalid value).
+
+#### NegativeOrZero - 
+
+The annotated element must be a negative number or 0.
+
+#### NotBlank - 
+
+The annotated element must not be null and must contain at least one non-whitespace character. Accepts CharSequence.
+
+#### NotEmpty - 
+
+The annotated element must not be null nor empty.
+
+#### NotNull - 
+
+The annotated element must not be null. Accepts any type.
+
+#### Null - 
+
+The annotated element must be null. Accepts any type.
+
+#### Past - 
+
+The annotated element must be an instant, date or time in the past.
+
+#### PastOrPresent - 
+
+The annotated element must be an instant, date or time in the past or in the present.
+
+#### Pattern - 
+
+The annotated CharSequence must match the specified regular expression. The regular expression follows the Java regular expression conventions see java.util.regex.Pattern.
+
+#### Positive - 
+
+The annotated element must be a strictly positive number (i.e. 0 is considered as an invalid value).
+
+#### PositiveOrZero - 
+
+The annotated element must be a positive number or 0.
+
+#### Size  - 
+
+The annotated element size must be between the specified boundaries (included).
+
   
