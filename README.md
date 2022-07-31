@@ -83,7 +83,7 @@ will get validation failed error
   
     {
         "name": "Mathew",
-        "dateOfBirth": "2000-07-30T17:19:19.570+00:00"
+        "dateOfBirth": "2025-07-30T17:19:19.570+00:00"
     }
 
 ```
@@ -96,7 +96,7 @@ will get validation failed error
     "timestamp": "2022-07-31T08:23:41.480+00:00",
     "message": "Method Argument Validation Failed",
     "details": "org.springframework.validation.BeanPropertyBindingResult: 1 errors\nField error in object 'user' on field
-    'dateOfBirth': rejected value [Wed Jul 30 22:03:56 IST 2025]; 
+    'dateOfBirth': rejected value [Wed Jul 30 25:03:56 IST 2025]; 
     codes [Past.user.dateOfBirth,Past.dateOfBirth,Past.java.util.Date,Past]; 
     arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.dateOfBirth,dateOfBirth];
     arguments []; default message [dateOfBirth]]; default message [date of birth should be past date from current date!]"
