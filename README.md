@@ -70,7 +70,10 @@ will get validation failed error
 {
     "timestamp": "2022-07-31T05:56:01.236+00:00",
     "message": "Method Argument Validation Failed",
-    "details": "org.springframework.validation.BeanPropertyBindingResult: 1 errors\nField error in object 'user' on field 'name': rejected value [a]; codes [Size.user.name,Size.name,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.name,name]; arguments []; default message [name],2147483647,2]; default message [name must have at least 2 character!]"
+    "details": "org.springframework.validation.BeanPropertyBindingResult: 1 errors\nField error in object 'user' on field 
+    'name': rejected value [a]; codes [Size.user.name,Size.name,Size.java.lang.String,Size]; 
+    arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.name,name]; 
+    arguments [];default message [name],2147483647,2]; default message [name must have at least 2 character!]"
 }
 ```
 
@@ -92,7 +95,11 @@ will get validation failed error
 {
     "timestamp": "2022-07-31T08:23:41.480+00:00",
     "message": "Method Argument Validation Failed",
-    "details": "org.springframework.validation.BeanPropertyBindingResult: 1 errors\nField error in object 'user' on field 'dateOfBirth': rejected value [Wed Jul 30 22:03:56 IST 2025]; codes [Past.user.dateOfBirth,Past.dateOfBirth,Past.java.util.Date,Past]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.dateOfBirth,dateOfBirth]; arguments []; default message [dateOfBirth]]; default message [date of birth should be past date from current date!]"
+    "details": "org.springframework.validation.BeanPropertyBindingResult: 1 errors\nField error in object 'user' on field
+    'dateOfBirth': rejected value [Wed Jul 30 22:03:56 IST 2025]; 
+    codes [Past.user.dateOfBirth,Past.dateOfBirth,Past.java.util.Date,Past]; 
+    arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [user.dateOfBirth,dateOfBirth];
+    arguments []; default message [dateOfBirth]]; default message [date of birth should be past date from current date!]"
 }
 ```
 
