@@ -52,7 +52,7 @@ can call following Endpoints by using POSTMAN
 
 ```
   
-#### Validate user name (it's length should be min 2 )
+#### 5.2 Validate user name (it's length should be min 2 )
   
   ```
   
@@ -74,7 +74,7 @@ will get validation failed error
 }
 ```
 
-#### 5.2 Validate user date of birth (date should be past date from current date)
+#### 5.3 Validate user date of birth (date should be past date from current date)
   
   ```
   
